@@ -148,6 +148,7 @@ transform: scale(1.2); /* Efecto de escala al pasar el ratón */
     transform: translateY(-50%);
 }
 
+
 /* Placeholder para inputs */
 .form-control::placeholder {
     color: #ccc; /* Color del placeholder más pálido */
@@ -158,6 +159,23 @@ transform: scale(1.2); /* Efecto de escala al pasar el ratón */
 .form-control textarea::placeholder {
     color: #ccc; /* Color del placeholder más pálido */
     opacity: 1; /* Asegura que el placeholder tenga la misma opacidad en todos los navegadores */
+}
+
+
+/*Footer*/
+.footer-container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: #DBDBD9;
+    padding: 2%;
+}
+
+.footer-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 /* Estilos para el modal */
