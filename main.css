@@ -317,3 +317,40 @@ body {
     color: #FFF;
     font-size: 25px;
   }
+
+
+
+  /*Footer*/
+.footer-container{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background: #DBDBD9;
+  padding: 2%;
+}
+
+.footer-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+/*Boton de subir */
+
+.up-icon{
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px; 
+  z-index: 99; 
+  font-size: 3rem; 
+  color: rgb(100, 170, 240);
+  cursor: pointer; 
+  transition-behavior: normal, normal; 
+  transition-duration: 0.3s, 0.3s; 
+  transition-timing-function: ease, ease; 
+  transition-delay: 0s, 0s; 
+  transition-property: color, transform;
+}
