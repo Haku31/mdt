@@ -135,6 +135,7 @@ transform: scale(1.2); /* Efecto de escala al pasar el ratón */
     height: auto;
 }
 
+
 .required-label {
     position: relative;
 }
