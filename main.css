@@ -1,0 +1,356 @@
+body {
+    padding-top: 70px; /* Espacio para el header fijo */
+    display: grid;
+    gap: 20px; /* Espacio entre las filas y columnas */
+  }
+  .footer {
+    background-color: #343a40; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px 0;
+  }
+  .container3{
+    width: 80%;
+  }
+  .footer p {
+    margin: 0;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .footer .col-md-4 {
+      margin-bottom: 20px;
+    }
+  }
+  
+  .custom-carousel {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 15%;
+  }
+  
+  .custom-carousel .custom-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10%;
+  }
+
+  .titleee{
+    color: rgb(27, 141, 235);
+  }
+  
+  @media (max-width: 1200px) {
+    .custom-carousel {
+      max-width: 700px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .custom-carousel {
+      max-width: 600px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .custom-carousel {
+      max-width: 500px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .custom-carousel {
+      max-width: 100%;
+    }
+  }
+  
+
+  .container {
+    padding-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .containerf {
+    padding-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  .containermdt {
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .mm {
+    min-width: 100%;
+    border-radius: 15%;
+    height: auto; /* Para mantener la proporción */
+    }
+
+    /* Media query para pantallas pequeñas */
+    @media screen and (max-width: 768px) {
+        .mm {
+            max-width: 200%;
+            height: auto; /* Para mantener la proporción */
+        }
+    }
+  .mdt{
+    padding-top: 80%;
+
+  }
+
+  .seccionmdt{
+    width: 50%;
+    height: 550px;
+
+  }
+
+  .mdt {
+    flex: 1 1 100%; /* Flex grow, flex shrink, flex basis */
+    max-width: 700px; /* Ancho máximo para evitar que se estire demasiado en pantallas grandes */
+    padding-top: 0%;
+    padding-left: 5%;
+    box-sizing: border-box; /* El padding se incluye en el ancho total */
+    text-align: center; /* Centrar contenido */
+  }
+  .Vission {
+    flex: 1 1 100%; /* Flex grow, flex shrink, flex basis */
+    max-width: 600px; /* Ancho máximo para evitar que se estire demasiado en pantallas grandes */
+    padding-top: 10%;
+    box-sizing: border-box; /* El padding se incluye en el ancho total */
+    text-align: center; /* Centrar contenido */
+  }
+  .f {
+    flex: 1 1 100%; /* Flex grow, flex shrink, flex basis */
+    max-width: 600px; /* Ancho máximo para evitar que se estire demasiado en pantallas grandes */
+    padding-top: 2%;
+    box-sizing: border-box; /* El padding se incluye en el ancho total */
+    text-align: center; /* Centrar contenido */
+  }
+
+
+  .diagramavision {
+    max-width: 60%;
+    height: auto; /* Para mantener la proporción */
+  }
+  .img1{
+    margin-top: 5%;
+    width: 35%;
+  }
+  .parrafo{
+    margin-top: 5%;
+  }
+  .containerparrafos {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos horizontalmente */
+    }
+
+    .paragraph {
+        flex: 1; /* Ocupa el espacio disponible */
+        margin-right: 10px; /* Espacio entre los bloques de párrafo */
+    }
+    .paragraph1 {
+        flex: 1; /* Ocupa el espacio disponible */
+        margin-right: 0px; /* Espacio entre los bloques de párrafo */
+    }
+    .containerparrafos p {
+        flex-wrap: wrap;
+        flex: 1; /* Ocupa el espacio disponible */
+        margin-right: 10px; /* Espacio entre párrafos */
+    }
+  .mission {
+    flex: 1 1 100%; /* Flex grow, flex shrink, flex basis */
+    max-width: 600px; /* Ancho máximo para evitar que se estire demasiado en pantallas grandes */
+    padding: 20px;
+    box-sizing: border-box; /* El padding se incluye en el ancho total */
+    text-align: center; /* Centrar contenido */
+  }
+
+  .containermiss {
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+
+  .seccion {
+    flex: 1 1 100%; /* Flex grow, flex shrink, flex basis */
+    max-width: 600px; /* Ancho máximo para evitar que se estire demasiado en pantallas grandes */
+    padding: 20px;
+    box-sizing: border-box; /* El padding se incluye en el ancho total */
+    text-align: center; /* Centrar contenido */
+  }
+  .diagramamiss {
+    max-width: 60%;
+    height: auto; /* Para mantener la proporción */
+  }
+
+  .diagrama {
+    max-width: 100%;
+    height: auto; /* Para mantener la proporción */
+  }
+
+  .navbar {
+    background-color: #0c5283;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1030; /* Asegúrate de que el navbar esté sobre otros elementos */
+  }
+
+  #logo-container {
+    margin-left: 200px;
+    display: flex; /* Usa flexbox para alinear elementos */
+    align-items: center; /* Alinea verticalmente los elementos */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    opacity: 0;
+    animation: moveLogo 1s forwards;
+  }
+
+  #logo {
+    margin-right: 10px; /* Espacio de 10px a la derecha de la imagen */
+    height: 50px; /* Ajusta la altura de la imagen según sea necesario */
+  }
+
+  #logo-text {
+    text-decoration: none;
+    user-select: none;
+    margin-left: 10px;
+    font-size: 1.5rem; /* Usa unidades relativas */
+    color: #ffffff;
+    opacity: 0;
+    animation: showText 1s forwards 1s; /* Empieza después de 1s */
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+  }
+
+  .navbar-light .navbar-brand {
+    color: #ffffff;
+  }
+
+  /* Cambia el color del texto cuando el enlace está activo o en foco */
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 200px;
+  }
+
+  @keyframes moveLogo {
+    to {
+      opacity: 1;
+      transform: translateX(0); /* Asegura que se mueva en relación con su posición inicial */
+    }
+  }
+
+  @keyframes showText {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @media (max-width: 768px) {
+    #logo-container {
+      justify-content: center;
+      margin-left: 0; /* Elimina el margen izquierdo en pantallas pequeñas */
+    }
+
+    #logo {
+      height: 40px; /* Ajusta la altura de la imagen en pantallas pequeñas */
+    }
+
+    #logo-text {
+      font-size: 1.2rem; /* Ajusta el tamaño del texto en pantallas pequeñas */
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .navbar-nav {
+      margin-left: 200px;
+    }
+  }
+
+  #scrollToTopBtn {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 3rem; /* Tamaño del ícono */
+    color: #64aaf0; /* Color del ícono */
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+  }
+
+  .navbar.scrolled {
+    backdrop-filter: blur(5px); /* Aplica el desenfoque */
+    background-color: rgba(41, 94, 131, 0.8); /* Ajusta la transparencia del fondo */
+    transition: backdrop-filter 0.3s, background-color 0.3s; /* Transición suave */
+  }
+
+  #scrollToTopBtn:hover {
+    color: #646566; /* Cambia de color al pasar el ratón */
+    transform: scale(1.2); /* Efecto de escala al pasar el ratón */
+  }
+
+  .btn-menu {
+    color: #FFF;
+    font-size: 25px;
+  }
+
+
+
+  /*Footer*/
+.footer-container{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background: #DBDBD9;
+  padding: 2%;
+}
+
+.footer-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+/*Boton de subir */
+
+.up-icon{
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px; 
+  z-index: 99; 
+  font-size: 3rem; 
+  color: rgb(100, 170, 240);
+  cursor: pointer; 
+  transition-behavior: normal, normal; 
+  transition-duration: 0.3s, 0.3s; 
+  transition-timing-function: ease, ease; 
+  transition-delay: 0s, 0s; 
+  transition-property: color, transform;
+}
